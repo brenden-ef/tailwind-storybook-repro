@@ -8,8 +8,8 @@
 After running `npm ci` to install dependencies:
 
 1. start storybook `nx storybook repro` and open it in a browser
-2. in `packages/repro/src/lib/repro.tsx` add `p-8` class to the root `div` and `text-red-500 text-8xl font-bold` to the `h1` classes
-3. note that none of the styles are applied
+2. in `packages/repro/src/lib/repro.tsx` add `p-8` class to the root `div` and  change the `h1` classes to `text-red-500 text-8xl font-bold`. Save the file after making these changes
+3. note that none of the styles are applied after webpack finishes building the preview
 4. refresh the page manually
 5. note that now the styles are applied
 
