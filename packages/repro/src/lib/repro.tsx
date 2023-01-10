@@ -4,7 +4,7 @@ export interface ReproProps {}
 export function Repro(props: ReproProps) {
   return (
     <div className="">
-      <h1 className="text-8xl">Hello, World!</h1>
+      <h1 className="text-2xl">Hello, World!</h1>
     </div>
   );
 }
